@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CardCollectorHubApplication",
+      "request": "launch",
+      "mainClass": "com.cardcollector.cardhub.CardCollectorHubApplication",
+      "projectName": "card-collector-hub"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/ryned/OneDrive - Utah Valley University/card-collector-hub/backend/venv",
+      "program": "c:/Users/ryned/OneDrive - Utah Valley University/card-collector-hub/backend/venv/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
